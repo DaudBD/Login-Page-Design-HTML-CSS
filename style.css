@@ -1,0 +1,89 @@
+  
+/* Design By DaudBD.Com */
+  *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+      overflow:hidden;
+    }
+
+    .login-box{
+      width:350px;
+      padding:40px;
+      background: rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(15px);
+      border-radius:20px;
+      box-shadow:0 8px 32px rgba(0,0,0,0.3);
+      color:#fff;
+    }
+
+    .login-box h2{
+      text-align:center;
+      margin-bottom:30px;
+      font-size:32px;
+      color:cyan;
+    }
+
+    .input-box{
+      position:relative;
+      margin-bottom:25px;
+    }
+
+    .input-box input{
+      width:100%;
+      padding:14px;
+      border:none;
+      outline:none;
+      border-radius:10px;
+      background:rgba(255,255,255,0.1);
+      color:#fff;
+      font-size:16px;
+    }
+
+    .input-box input::placeholder{
+      color:#cbd5e1;
+    }
+
+    .login-btn{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:10px;
+      background:cyan;
+      color:#000;
+      font-size:18px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .login-btn:hover{
+      background:#00bcd4;
+      transform:scale(1.03);
+    }
+
+    .extra{
+      margin-top:20px;
+      text-align:center;
+      font-size:14px;
+      color:#ddd;
+    }
+
+    .extra a{
+      color:cyan;
+      text-decoration:none;
+    }
+
+    .extra a:hover{
+      text-decoration:underline;
+    }
